@@ -5,7 +5,9 @@ import {Navbar} from "../nav/Navbar";
 export const Header = () => {
     return (
         <div className={style.header}>
-            <Navbar/>
+            <div className={style.container}>
+                <Navbar/>
+            </div>
         </div>
     )
 }

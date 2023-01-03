@@ -5,3 +5,12 @@
     justify-content: flex-end;
     align-items: center;
 }
+.container{
+    border: 1px solid aquamarine;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
