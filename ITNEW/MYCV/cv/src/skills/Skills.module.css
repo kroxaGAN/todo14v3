@@ -4,6 +4,7 @@
     height: 100vh;
 }
 .skillsContainer{
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -11,8 +12,10 @@
     background-color: blanchedalmond;
 }
 .skills{
-    border: 1px solid purple;
+    border: 1px solid #5b285b;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: bisque;
 }
